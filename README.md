@@ -23,7 +23,7 @@ tvm hello.t
 
 ## TVM sample codes
 
-The directory sample.t contains several sample TVM codes.
+The directory `sample.t` contains several sample TVM codes.
 
 ## Built With
 
@@ -35,7 +35,7 @@ The directory sample.t contains several sample TVM codes.
 
 ## License
 
-This project is licensed under the LGPL License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GPL License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
