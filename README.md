@@ -7,7 +7,7 @@ Another version of P-machine, namely GP-machine, is available in GitHub: [GP-mac
 
 ### How to Build
 
-Just use make.bat in Windows with GCC.
+Just use `make.bat` in Windows with GCC (g++).
 
 ```
 make
@@ -15,7 +15,7 @@ make
 
 ## Getting Started
 
-Make the project using make.bat in Windows. And invoke tvm with a TVM byte code.
+Invoke `tvm` with a TVM byte code, say `hello.t`.
 
 ```
 tvm hello.t
@@ -27,7 +27,7 @@ The directory sample.t contains several sample TVM codes.
 
 ## Built With
 
-* [MinGW](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [MinGW](http://mingw.org/) - Minimalist GNU for Windows
 
 ## Authors
 
@@ -40,4 +40,5 @@ This project is licensed under the LGPL License - see the [LICENSE.md](LICENSE.m
 ## Acknowledgments
 
 * S. H. Lee
+* S. Joo
 
