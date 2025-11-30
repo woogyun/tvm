@@ -1,1 +1,1 @@
-g++ tvm.cpp -std=c++11 -o tvm
+g++ tvm.cpp -std=c++17 -o tvm

@@ -230,7 +230,7 @@ std::string lTrim(std::string str)
 {
     str.erase(str.begin(),
               find_if(str.begin(), str.end(),
-                      not1(ptr_fun<int, int>(isspace))));
+                      [](int c){ return !isspace(c); }));
     return str;
 }
 
@@ -673,7 +673,7 @@ long atol(string str)
     return (long)atoi(str.c_str());
 }
 
-#define SSTR(x) static_cast<ostringstream &>( \
+#define SSTR(x) static_cast<ostringstream>( \
         (ostringstream() << std::dec << x) ).str()
 string ltoa(long i)
 {
